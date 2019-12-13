@@ -12,7 +12,6 @@ class Hog extends Component {
 
 
     render(){
-        // console.hog(this.state)
         const {name, greased, specialty, weight} = this.props
         const rank = this.props["highest medal achieved"]
         const img = require("../hog-imgs/"+name.toLowerCase().split(" ").join("_") +".jpg")

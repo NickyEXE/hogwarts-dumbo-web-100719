@@ -2,7 +2,7 @@ import React from 'react';
 import Hog from './Hog.js'
 
 const HogIndex = (props) => {
-    console.hog(props)
+    // console.hog(props)
     const uuid = require('uuid/v4');
 
     const renderHogs = () => {
