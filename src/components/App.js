@@ -24,7 +24,6 @@ class App extends Component {
     const filteredHogsSortedByName = () => filteredHogs.sort((hog1, hog2) => hog1.name.localeCompare(hog2.name))
     const filteredHogsSortedByWeight = () => filteredHogs.sort((hog1, hog2) => hog2.weight - hog1.weight )
     const sortedAndFilteredHogs = this.state.sortByName ? filteredHogsSortedByName() : filteredHogsSortedByWeight()
-
     return (
       <div className="App">
           < Nav 
